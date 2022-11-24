@@ -35,4 +35,4 @@ jobs:
         run: |
           echo "MONGODB_USERNAME: ${{ env.MONGODB_USERNAME }}"
           echo "MONGODB_PASSWORD: ${{ env.MONGODB_PASSWORD }}"
-          echo "MONGODB_NAME: ${{ env.MONGODB_NAME }}"
+          echo "MONGODB_DB_NAME: ${{ env.MONGODB_DB_NAME }}"
