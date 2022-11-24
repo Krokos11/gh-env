@@ -10,9 +10,9 @@ jobs:
   test:
     env:
       MONGODB_CLUSTER_ADDRESS: xxx
-      MONGODB_USERNAME: admin
+      MONGODB_USERNAME: ${{ secrets.}}
       MONGODB_PASSWORD: password
-      PORT: 1800
+      PORT: 1880
     runs-on: ubuntu-latest
     steps:
       - name: Get Code
